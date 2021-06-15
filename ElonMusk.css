@@ -106,4 +106,8 @@ header li:hover{
 footer > p{
     font-size: 20px;
     margin-top: 200%;
+    position: absolute;
+}
+body {
+    background-color: rgb(151, 150, 150);
 }
