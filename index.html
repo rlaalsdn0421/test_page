@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>기말프로젝트</title>
+</head>
+
+<body>
+    <style>
+        @import url(ElonMusk.css);
+    </style>
+    <header>
+        <nav>
+            <ul id="contents">
+                <li><a href="./history.html">인생사</a>
+                <li><a href="./tesla.html">테슬라</a>
+                <li><a href="./spaceX.html">스페이스X</a>
+                <li><a href="./others.html">다른사업들</a>
+                <li><a href="./influencer.html">최근이슈</a>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        window.onload = function () {
+            var count = 0;
+            var image = document.getElementById('all');
+            var frames = [ "media/zip.png",
+            "media/paypal.png",
+            "media/starlink.jpg",
+            "media/solarcity.png",
+            "media/hyper.png",
+            "media/openai.png",
+            "media/neuralink.png",
+            "media/the boring.jpg"
+            ];
+            setInterval(function () {
+                image.src = frames[count % frames.length];
+                count = count + 1;
+            }, 2000);
+        };
+    </script>
+    <img src="media/musk.png" alt="사진없음" id="musk">
+    <a href="./index.html" id="home">일론 머스크</a>
+    <p id="z1">테슬라</p>
+    <p id="z2">스페이스X</p>
+    <p id="z3">다른사업</p>
+    <p id="z4">최근이슈</p>
+    <img src="media/TESLA.png" alt="사진없음" id="tesla">
+    <img src="media/spaceX.png" alt="사진없음" id="spaceX">
+    <img id="all">
+    <aside>
+        <ul id="c2">
+            <li><a href="#musk">인생사</a></li>
+            <li><a href="#tesla">테슬라</a></li>
+            <li><a href="#spaceX">스페이스X</li>
+            <li><a href="#all">다른사업들</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>5월 21일 ~ 6월 16일까지 기말프로젝트: 202012151 김민우</p>
+    </footer>
+</body>
+
+</html>
