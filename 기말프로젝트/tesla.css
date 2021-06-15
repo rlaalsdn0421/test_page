@@ -1,0 +1,187 @@
+#home{
+    position: absolute;
+    font-size: 55px;
+    left: 0%;
+    z-index: 2;
+    top: 0%;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+* {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+#s{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    height: 35%;
+    left: 10%;
+}
+#m3{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    height: 35%;
+    left: 30%;
+}
+#x{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    height: 35%;
+    left: 50%;
+}
+#y{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    height: 35%;
+    left: 70%;
+}
+img {
+    top: 10%;
+}
+
+#models {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    border: 1px solid black;
+    width: 20%;
+    height: 35%;
+    list-style-position: inside;
+    overflow: hidden;
+    background-color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+#model3 {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    border: 1px solid black;
+    width: 20%;
+    height: 35%;
+    list-style-position: inside;
+    overflow: hidden;
+    background-color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+#modelx {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    border: 1px solid black;
+    width: 20%;
+    height: 35%;
+    list-style-position: inside;
+    overflow: hidden;
+    background-color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+#modely {
+    position: absolute;
+    left: 70%;
+    top: 45%;
+    border: 1px solid black;
+    width: 20%;
+    height: 35%;
+    list-style-position: inside;
+    overflow: hidden;
+    background-color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    font-size: 30px;
+    left:30%;
+}
+#contents li{
+    margin-left: 35px;
+    float: left;
+    list-style-type: none;
+}
+aside li {
+    border: 2px solid black;
+    list-style-type: none;
+}
+aside{
+    position: fixed;
+    z-index: 2;
+    list-style-position: inside;
+    left: 5px;
+    top: 10%;
+    font-size: 20px;
+    background-color: white;
+}
+#te {
+    position: absolute;
+    top: 90%;
+    height: 25%;
+    left: 8%;
+}
+#t1 {
+    position: absolute;
+    top: 90%;
+    width: 70%;
+    height: 24%;
+    border: 1px solid black;
+    left: 25%;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+    overflow: scroll;
+}
+table {
+    position: absolute;
+    top: 130%;
+    border: 1px solid black;
+    left: 8%;
+    background-color: white;
+}
+th, td {
+    border: 1px solid black;
+    width: 65px;
+    text-align: center;
+  }
+#gra {
+    position: absolute;
+    top: 140%;
+    left: 8%;
+    border: 1px solid black;
+}
+#t2 {
+    position: absolute;
+    font-size: 30px;
+    top: 123%;
+    left: 8%;
+    font-weight: bold;
+}
+body {
+    background-color: rgb(151, 150, 150);
+}
+#grow {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    top: 150%;
+    left: 750px;
+
+}
+header li:hover{
+    background-color: rgba(255, 255, 0, 0.212);
+}
+
+#tsa{
+    background-color: rgba(255, 255, 0, 0.212);
+}
